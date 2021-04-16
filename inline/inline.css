@@ -99,6 +99,7 @@ li {
   padding-bottom: 0.2rem;
   background-color: var(--screen-width);
   border-radius: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .screen-width p {
