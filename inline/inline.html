@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="inline.css">
+    <title>Block vs Inline</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Block vs Inline</h1>
+        <div class="container">
+            <h2>Block</h2>
+            <div class="block">
+                <div class="block-elements description bl">
+                    <ul>
+                        <li>A block element always starts on a new line</li>
+                        <li>A block level element always takes up the full width available</li>
+                        <li> A block element has a top and a bottom margin</li>
+                    </ul>
+                </div>
+                <div class="screen-width">
+                    <p>
+                        <-- Screen width -->
+                    </p>
+                    <div class="block-elements">
+                        <p>Notice the margin above and below the text</p>
+                    </div>
+                    <div class="block-elements">
+                        <p>This text is taking up the entire available width. If the width had not been defined in the CSS file then this would take the width of the screen.</p>
+                    </div>
+                    <div class="block-elements">
+                        <p>These are block elements</p>
+                    </div>
+                </div>
+                <div class="tags">
+                    <h3>Block tags</h3>
+                    <!-- copied from w3schools -->
+                    <div class="w3-row htmlHigh w3-code" style="line-height:25px;border-left:none;">
+                        <div class="mylist"><a href="/tags/tag_address.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>address<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_article.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>article<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_aside.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>aside<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_blockquote.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>blockquote<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_canvas.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>canvas<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_dd.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>dd<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_div.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_dl.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>dl<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_dt.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>dt<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_fieldset.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>fieldset<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_figcaption.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>figcaption<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_figure.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>figure<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_footer.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>footer<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_form.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>form<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_hn.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span>-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h6<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_header.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>header<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_hr.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>hr<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_li.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>li<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_main.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>main<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_nav.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>nav<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_noscript.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>noscript<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_ol.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>ol<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_p.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_pre.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>pre<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_section.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>section<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_table.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>table<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_tfoot.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>tfoot<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_ul.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>ul<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_video.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>video<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Inline</h2>
+            <div class="inline">
+                <div class="block-elements description">
+                    <ul>
+                        <li>An inline element does not start on a new line</li>
+                        <li>An inline element only takes up as much width as necessary</li>
+                        <li>An inline elements does not add a top and bottom margin</li>
+                    </ul>
+                </div>
+                <div class="screen-width">
+                    <p>
+                        <-- Screen width -->
+                    </p>
+                    <div class="inline-elements">
+                        <p>"This is an inline element"</p>
+                    </div>
+                    <div class="inline-elements">
+                        <p>"This is a slightly larger inline element and still only takes the nessecary space required"</p>
+                    </div>
+                    <div class="inline-elements">
+                        <p>"This is purely filler text"</p>
+                    </div>
+                    <div class="inline-elements">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                    </div>
+                    <div class="inline-elements">
+                        <p>"One inline element"</p>
+                    </div>
+                    <div class="inline-elements">
+                        <p>"another inline element"</p>
+                    </div>
+                </div>
+                <div class="tags">
+                    <h3>Inline tags</h3>
+                    <!-- copied from w3schools -->
+                    <div class="w3-row htmlHigh w3-code" style="line-height:25px;border-left:none;">
+                        <div class="mylist"><a href="/tags/tag_a.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>a<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_abbr.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>abbr<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_acronym.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>acronym<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_b.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>b<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_bdo.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>bdo<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_big.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>big<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_br.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>br<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_button.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>button<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_cite.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>cite<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_code.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>code<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_dfn.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>dfn<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_em.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>em<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_i.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>i<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_img.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>img<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_input.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>input<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_kbd.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>kbd<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_label.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>label<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_map.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>map<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_object.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>object<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_output.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>output<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_q.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>q<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_samp.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>samp<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_script.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_select.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>select<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_small.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>small<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_span.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>span<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_strong.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>strong<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_sub.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>sub<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_sup.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>sup<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_textarea.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>textarea<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_time.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>time<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                        <div class="mylist"><a href="/tags/tag_tt.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>tt<span class="tagcolor" style="color:mediumblue">&gt;</span></span></a>
+                        </div>
+                        <div class="mylist"><a href="/tags/tag_var.asp"><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>var<span class="tagcolor"
+                                        style="color:mediumblue">&gt;</span></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Block and Inline together</h2>
+            <div class="block">
+            </div>
+            <div class="screen-width">
+                <p>
+                    <-- Screen width -->
+                </p>
+                <div class="block-elements mix">
+                    <p>This is an <span>"inline"</span> element inside a block element</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
