@@ -1,0 +1,15 @@
+:root {
+  --background: lightgrey;
+  --container: #ffffff;
+  --block: #ffffff;
+  --inline: #ffe8df;
+  --screen-width: #87cdd4;
+  --child1: #4fa8f9;
+  --child2: #ec5e57;
+  --child3: #b36ce1;
+  --child4: #70bf41;
+  --child5: #f59019;
+  --child6: #f6d32a;
+  --border: black;
+  --button-hover: #87cdf0;
+}
