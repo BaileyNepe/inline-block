@@ -79,6 +79,7 @@ ul,
 li {
   background-color: var(--block);
   list-style: none;
+  padding: 0;
 }
 
 .description {
@@ -95,7 +96,6 @@ li {
 }
 
 .screen-width {
-  margin: 0 2rem;
   padding-bottom: 0.2rem;
   background-color: var(--screen-width);
   border-radius: 0.5rem;
